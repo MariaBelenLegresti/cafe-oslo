@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Café Oslo</title>
 </head>
 <body>
 
     <!------------------HERE STARTS THE HEADER-------------->
     <header>
-        <div class="upper-navbar">
+        <div class="upper-header">
             <div class="logo"><img src="/images/Logo.png" alt="logo"></div>
             <nav class="right-navbar">
                 <ul>
@@ -23,30 +27,115 @@
                 </ul>
             </nav>
             <div class="burguer"><i class="fas fa-bars"></i></div>
-
-            <div>
-                <h1>RECIÉN HECHO, <br>
-                    TODOS LOS DÍAS
-                </h1>
-
-                <div class="white-bar"></div>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magnam. Temporibus reprehenderit quidem incidunt culpa. Perspiciatis deleniti ab perferendis atque pariatur, aliquam a fugit explicabo itaque doloribus, laborum libero rerum.</p>
-            </div>
-            
         </div>
-        
 
+        <div class="bottom-header">    
+            <h2>
+                RECIÉN HECHO,<br/>
+                TODOS LOS DÍAS
+            </h2>
+
+            <div class="white-bar"></div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, magnam. Temporibus reprehenderit quidem incidunt culpa. Perspiciatis deleniti ab perferendis atque pariatur, aliquam a fugit explicabo itaque doloribus, laborum libero rerum.</p>
+        </div>
     </header>
 
     <!------------------HERE STARTS THE MAIN SECTION-------------->
     <main>
+        <section class="box-introduction">
+            <article class="left-introduction">
+                <h3>
+                    VEN AL BRUNCH DE <br/>
+                    LOS DOMINGOS
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione exercitationem dicta, aliquam nihil similique iste, voluptatem laboriosam pariatur accusantium quis facilis veniam, soluta nesciunt libero sunt ipsam quam dolorem cupiditate.</p>
+            </article>
 
+            <article class="right-introduction">
+                <h3>
+                    CELEBRRA TUS FIESTAS <br/>
+                    CON NOSOTROS
+                </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione exercitationem dicta, aliquam nihil similique iste, voluptatem laboriosam pariatur accusantium quis facilis veniam, soluta nesciunt libero sunt ipsam quam dolorem cupiditate.</p>
+            </article>
+        </section>
+
+        <section class="box-cta">
+            <h2>VEN A DESAYUNAR</h2>
+
+            <div class="white-bar"></div>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel neque, architecto mollitia ad adipisci esse obcaecati deserunt earum, repudiandae fugiat assumenda corrupti fugit sint? Cumque ipsum aliquam ex dolor! Perferendis?</p>
+            
+            <button>DESCUBRE NUESTROS PRODUCTOS</button>
+        </section>
+
+        <section class="products">
+            <article class="each-product">
+                <div class="icon"><img src="/images/Icono1.png" alt=""></div>
+                <div class="description">
+                    <h4>PAN RECIÉN HECHO</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum possimus, odit ullam perspiciatis aliquam obcaecati fuga nulla, accusantium optio illum odio earum dolorum aperiam pariatur, corrupti delectus eius perferendis! Labore.</p>
+                </div>
+            </article>
+
+            <article class="each-product">
+                <div class="icon"><img src="/images/Icono2.png" alt=""></div>
+                <div class="description">
+                    <h4>TARTAS PARA CADA DÍA</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum possimus, odit ullam perspiciatis aliquam obcaecati fuga nulla, accusantium optio illum odio earum dolorum aperiam pariatur, corrupti delectus eius perferendis! Labore.</p>
+                </div>
+            </article>
+
+            <article class="each-product">
+                <div class="icon"><img src="/images/Icono3.png" alt=""></div>
+                <div class="description">
+                    <h4>PRUEBA NUESTROS DULCES</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum possimus, odit ullam perspiciatis aliquam obcaecati fuga nulla, accusantium optio illum odio earum dolorum aperiam pariatur, corrupti delectus eius perferendis! Labore.</p>
+                </div>
+            </article>
+
+            <article class="each-product">
+                <div class="icon"><img src="/images/Icono4.png" alt=""></div>
+                <div class="description">
+                    <h4>INGREDIENTES ECOLÓGICOS</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum possimus, odit ullam perspiciatis aliquam obcaecati fuga nulla, accusantium optio illum odio earum dolorum aperiam pariatur, corrupti delectus eius perferendis! Labore.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="contact-box">
+            <article class="contact">
+                <h3>
+                    CONTACTA CON <br/>
+                    NOSOTROS
+                </h3>
+
+                <P>Si quieres hacer una reserva, tienes alguna sugerencia o <br/>
+                simplemente quieres saludar, escríbenos a: <br/>
+                cafeoslo@cafeoslo.es
+                </P>
+            </article>
+
+            <article class="address">
+                <h3>
+                    ¿SABES DÓNDE <br/>
+                    ESTAMOS?
+                </h3>
+
+                <P>
+                    C/Mayor, 15 <br/>
+                    00000 Barcelona <br/>
+                    (Google Maps)
+                </P>
+            </article>
+        </section>
     </main>
 
     <!------------------HERE STARTS THE FOOTER-------------->
     <footer>
-
+        <p>Septiembre, 2021. Todos los derechos reservados.</p>
     </footer>
 
 </body>
